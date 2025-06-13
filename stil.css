@@ -1,0 +1,122 @@
+@charset "utf-8";
+/* CSS Document */
+p {
+	color: darkgreen;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 22px;
+	line-height: 25px;
+	width: 1000px;
+	background-color: rgba(113,150,121,0.8);
+	padding: 100px;
+	}
+.paragraf_2 {color: darkgreen; background-color: rgba(255,255,255,0.7)}
+.novi_blok {
+	background-color: rgba(237,145,176,0.5);
+	padding: 20px;
+	margin: 20px;
+	width: 100%
+}
+h1 { 
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace" ;
+	font-size: 43px;
+	color: rgba(91,9,11,1.00);
+	border: 3px solid darkgreen; 
+    padding: 14px;                
+    border-radius: 9px;           
+    display: inline-block; 
+	background-color: rgba(91,112,68,1.00);
+}
+h2 {
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace" ;
+	font-size: 35px;
+	color: rgba(135,10,12,1.00);
+	border: 3px ridge #1B300F; 
+    padding: 10px;                
+    border-radius: 5px;   
+    margin-top: 30px;
+    margin-bottom: 50px;
+	background-color: rgba(221,238,232,0.50);
+}
+h3 {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif" ;
+	color: darkred;
+}
+span {color: rgb(255,0,255);}
+.pozadina {
+  background-image: url("Slike/07e5bcef211449ca1031ac24d658d46a.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+.drugapozadina {
+  background-image: url("Slike/0009819b275fdd2c60bc3893a6a4ee20.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+a:link {
+	color: black;
+	font-size: 20px;
+	background-color: papayawhip;
+	padding: 8px;
+	line-height: 50px;
+	border: 3px solid #000000;
+}
+a:hover{
+	background-color:darkolivegreen;
+}
+img{
+	height: 100px;
+}
+.centrirano img {
+  max-width: 90%;
+  height: 100;
+  margin: 10px;
+}
+.centrirano {
+  width: 80%;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;		
+}
+.centrirano ol,
+.centrirano ul {
+  display: inline-block;
+  text-align: left;
+  padding-left: 10px;
+  list-style-position: inside;
+  margin: 80px auto;
+}
+blockquote {
+  border: 2px solid darkolivegreen;
+  background-color: rgba(240, 255, 240, 0.7); 
+  padding: 15px 25px;
+  margin: 30px auto;
+  width: 70%;
+  font-style: italic;
+  border-radius: 15px;
+  color: #333;
+  box-shadow: 0 0 15px rgba(0,0,0,0.6);
+}
+ol {
+  font-size: 29px;
+  color: darkgreen;
+  border-radius: 10px;
+  color: #333;
+  box-shadow: 0 0 15px rgba(0,0,0,0.7);
+}
+ul li {
+  color: darkgreen;
+  font-size: 29px;
+  font-family: "Verdana", sans-serif;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  color: #333;
+  box-shadow: 0 0 10px rgba(0,0,0,0.7);
+}
+
